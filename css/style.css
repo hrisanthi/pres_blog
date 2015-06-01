@@ -1,0 +1,12 @@
+table{
+  width: 100%;
+}
+
+#uparrow, #downarrow, .up, .down{
+  width: 20%;
+}
+
+#counter{
+  display: block;
+
+}
