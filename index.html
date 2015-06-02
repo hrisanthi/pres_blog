@@ -4,45 +4,59 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--css-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+
 
 </head>
+
+
+
   <body>
 
-    <div class="container">
+<div class="container">
 
+<div class="row">
 
-  <div class="dems">
-    <h1>Demcrates who have announced</h1>
-      <div class="democrate"></div>
+  <h1 style="color: #033f73">Democrats</h1>
+  <div class="col-md-12" id="announced">
+    <h2>Announced</h2>
+    <div class="democrat"></div>
+    <div class="foclear"></div>
   </div>
-  <div class="expectdems">
-    <h1>Demcrates who are expected to announce</h1>
+
+  <div class="col-md-12" id="expected">
+    <h2>Expected to Announce</h2>
       <div class="expectedDems"></div>
   </div>
+</div>
 
-  <div class="reps">
-    <h1>Republicans who have announced</h1>
+
+<div class="row">
+  <h1 style="color:#bf2c2c ">Republicans</h1>
+  <div class="col-md-12" id="announced">
+    <h2>Announced</h2>
       <div class="republican"></div>
   </div>
-  <div class="expectreps">
-    <h1>Republicans who are expected to announce</h1>
-        <div class="expectedReps"></div>
+</div>
+
+<div class="row">
+  <div class="col-md-12" id="expected">
+    <h2>Expected to Announce</h2>
+      <div class="expectedReps"></div>
+    </div>
   </div>
-
-
-
-
-
-
-
-
-
 
 
 </div>
+
+
+
     <!--javascript-->
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/dataloaded.js"></script>
 
 

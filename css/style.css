@@ -1,16 +1,51 @@
 .container{
   max-width: 600px;
   min-width: 300px;
-  margin: auto;
+  margin: 10px auto;
 }
 
-.dems, .reps, .expectdems, .expectreps{
-  width: 40%;
-  border-bottom: 1px solid black;
+p{
+  font-size: 12px;
 }
 
-.exp
+h3.dems{
+  color: #033f73;
+  font-family: 'Droid Sans', cursive;
+}
 
-img{
+h3.reps{
+  color: #bf2c2c;
+  font-family: 'Droid Sans', cursive;
+
+}
+
+h1, h2{
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+li.dems, li.expectdems, li.reps, li.expectreps{
+  width: 33%;
+  float: left;
+  padding: 10px;
+  min-height: 410px;
+}
+
+li img{
   width: 100%;
+
+}
+
+.mug{
+  height: 200px;
+  overflow: hidden;
+}
+
+.foclear{
+  clear: both;
+  height: 10px;
 }

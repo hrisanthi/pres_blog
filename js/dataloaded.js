@@ -38,11 +38,11 @@ function loadData(xml){
                console.log(name);
 
                var candidateHTML ='';
-               candidateHTML += '<img class="image" alt="" src="' + image + '" />';
-               candidateHTML += '<h1 class="name">' + name + '</h1>';
-               candidateHTML += '<p class="bio">' + bio + '</p>';
+               candidateHTML += '<li class="dems"><div class="mug"><img class="image" alt="" src="' + image + '" /></div>';
+               candidateHTML += '<h3 class="dems">' + name + '</h3>';
+               candidateHTML += '<p>' + bio + '</p></li>';
 
-               $(".democrate").append($(candidateHTML));
+               $(".democrat").append($(candidateHTML));
 
              });
 
@@ -56,9 +56,9 @@ function loadData(xml){
                 console.log(name);
 
                 var candidateHTML ='';
-                candidateHTML += '<img class="image" alt="" src="' + image + '" />';
-                candidateHTML += '<h1 class="name">' + name + '</h1>';
-                candidateHTML += '<p class="bio">' + bio + '</p>';
+                candidateHTML += '<li class="expectdems"><div class="mug"><img class="image" alt="" src="' + image + '" /></div>';
+                candidateHTML += '<h3 class="dems">' + name + '</h3>';
+                candidateHTML += '<p class="bio">' + bio + '</p></li>';
 
                 $(".expectedDems").append($(candidateHTML));
 
@@ -74,9 +74,9 @@ function loadData(xml){
                         console.log(name);
 
                         var candidateHTML ='';
-                        candidateHTML += '<img class="image" alt="" src="' + image + '" />';
-                        candidateHTML += '<h1 class="name">' + name + '</h1>';
-                        candidateHTML += '<p class="bio">' + bio + '</p>';
+                        candidateHTML += '<li class="reps"><div class="mug"><img class="image" alt="" src="' + image + '" /></div>';
+                        candidateHTML += '<h3 class="reps">' + name + '</h3>';
+                        candidateHTML += '<p class="bio">' + bio + '</p></li>';
 
                         $(".republican").append($(candidateHTML));
 
@@ -92,9 +92,9 @@ function loadData(xml){
                                 console.log(name);
 
                                 var candidateHTML ='';
-                                candidateHTML += '<img class="image" alt="" src="' + image + '" />';
-                                candidateHTML += '<h1 class="name">' + name + '</h1>';
-                                candidateHTML += '<p class="bio">' + bio + '</p>';
+                                candidateHTML += '<li class="expectreps"><div class="mug"><img class="image" alt="" src="' + image + '" /></div>';
+                                candidateHTML += '<h3 class="reps">' + name + '</h3>';
+                                candidateHTML += '<p class="bio">' + bio + '</p></li>';
 
                                 $(".expectedReps").append($(candidateHTML));
 
