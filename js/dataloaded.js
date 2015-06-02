@@ -35,6 +35,7 @@ function loadData(xml){
                var bio = $candidate.find('bio').text();
                bioArray.push($candidate.find('bio').text());
                var image = $candidate.find('image').text();
+               console.log(name);
 
 
 
@@ -47,7 +48,7 @@ function loadData(xml){
 
 
 
-               $("#candidate").append($(candidateHTML));
+               $(".candidate").append($(candidateHTML));
 
              });
 

@@ -1,38 +1,125 @@
 <candidates>
 
-<candidate name ="Jill">
-  <image>http://i.ebayimg.com/00/s/NzUyWDc1NA==/z/OicAAMXQ-3NRlEfN/$T2eC16JHJF8FFqK))8fmBRlEfNSqUQ~~60_35.JPG</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+  <democrate>
+
+      <candidate name ="Hillary Clinton">
+        <image>img/hillary.jpg</image>
+        <bio>The Democratic front-runner, with a bullet, is so far keeping the media at bay, as she plans her first big rally.</bio>
+      </candidate>
 
 
-  <candidate name ="Jill">
-  <image>img/smily.jpg</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+      <candidate name ="Martin O'Malley">
+        <image>img/omalley.jpg</image>
+        <bio>The former Maryland governor made clear when he announced his candidacy last week he will run to Hillary Clinton's left, despite endorsing her in 2008.</bio>
+      </candidate>
 
-  <candidate name ="Jill">
-  <image>http://i.ebayimg.com/00/s/NzUyWDc1NA==/z/OicAAMXQ-3NRlEfN/$T2eC16JHJF8FFqK))8fmBRlEfNSqUQ~~60_35.JPG</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+      <candidate name ="Bernie Sanders">
+        <image>img/sanders.jpg</image>
+        <bio>One person who does not mind when you call him socialist, he is expected to shape the Democratic primary despite having little real chance of winning. </bio>
+      </candidate>
 
-  <candidate name ="Jill">
-  <image>http://i.ebayimg.com/00/s/NzUyWDc1NA==/z/OicAAMXQ-3NRlEfN/$T2eC16JHJF8FFqK))8fmBRlEfNSqUQ~~60_35.JPG</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+      <expectedDems>
 
-  <candidate name ="Jill">
-  <image>http://i.ebayimg.com/00/s/NzUyWDc1NA==/z/OicAAMXQ-3NRlEfN/$T2eC16JHJF8FFqK))8fmBRlEfNSqUQ~~60_35.JPG</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+        <candidate name ="Jim Webb">
+          <image>img/webb.jpg</image>
+          <bio>It is unclear what the former Virginia senator and veteran, a blue dog, will offer to a party that appears to be trending left.</bio>
+        </candidate>
 
-  <candidate name ="Jill">
-  <image>http://i.ebayimg.com/00/s/NzUyWDc1NA==/z/OicAAMXQ-3NRlEfN/$T2eC16JHJF8FFqK))8fmBRlEfNSqUQ~~60_35.JPG</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+        <candidate name ="Lincoln Chafee">
+          <image>img/chafee.jpg</image>
+          <bio>The former Rhode Island senator is a Republican turned Democrat who has all but said his candidacy would be more about sending a message than trying to win.</bio>
+        </candidate>
 
-  <candidate name ="Jill">
-  <image>http://i.ebayimg.com/00/s/NzUyWDc1NA==/z/OicAAMXQ-3NRlEfN/$T2eC16JHJF8FFqK))8fmBRlEfNSqUQ~~60_35.JPG</image>
-  <bio>Jill is here. Jill is there. Jill is everywhere.</bio>
-</candidate>
+      </expectedDems>
+
+    </democrate>
+
+    <republican>
+
+      <candidate name ="Ben Carson">
+        <image>img/carson.jpg</image>
+        <bio>The medical doctor is popular in polling, but speaks with no filter and is seen as the longest of shots.</bio>
+      </candidate>
+
+      <candidate name ="Ted Cruz">
+        <image>img/cruz.jpg</image>
+        <bio>The tea party's last best hope, the Texas senator is a dark-horse prospect for the nomination.</bio>
+      </candidate>
+
+      <candidate name ="Carly Fiorina">
+        <image>img/fiorina.jpg</image>
+        <bio>The only woman among a long list of Republican candidates, she had a controversial turn as CEO of computer-maker HP.</bio>
+      </candidate>
+
+      <candidate name ="Lindsey Graham">
+        <image>img/graham.jpg</image>
+        <bio>The hawkish South Carolina senator is a close ally of John McCain, the party's nominee from 2008.</bio>
+      </candidate>
+
+      <candidate name ="Mike Huckabee">
+        <image>img/huckabee.jpg</image>
+        <bio>The former Arkansas governor, TV personality and second-place primary finisher in 2008 is making a bid for social conservatives.</bio>
+      </candidate>
+
+      <candidate name ="George Pataki">
+        <image>img/pataki.jpg</image>
+        <bio>The former New York governor, a relative unknown nationally, will try to carve out a place in a crowd of moderates in the field.</bio>
+      </candidate>
+
+      <candidate name ="Rand Paul">
+        <image>img/paul.jpg</image>
+        <bio>The former New York governor, a relative unknown nationally, will try to carve out a place in a crowd of moderates in the field.The first-term Kentucky senator has drawn fire from his fellow Republicans for his dove-ish stands on war and opposition to domestic surveillance.</bio>
+      </candidate>
+
+      <candidate name ="Marco Rubio">
+        <image>img/rubio.jpg</image>
+        <bio>One of the establishment favorites, the Florida senator has positioned himself as the next generation of leadership.</bio>
+      </candidate>
+
+      <candidate name ="Rick Santorum">
+        <image>img/santorum.jpg</image>
+        <bio>He placed second in his scrappy 2012 campaign, but some wonder if the Pennsylvania senator's time has past.</bio>
+      </candidate>
+
+      <expectedReps>
+
+        <candidate name ="Jeb Bush">
+          <image>img/bush.jpg</image>
+          <bio>A favorite of the establishment, and the undisputed fund-raising champ nevertheless has a last name that is dragging on his prospects.</bio>
+        </candidate>
+
+        <candidate name ="Chris Christie">
+          <image>img/christie.jpg</image>
+          <bio>The so-called Bridgegate scandal has so-far proven just a bump in the road for the straight-talking Jersey governor, but his image as a moderate  could prove far more hurtful to his chances.</bio>
+        </candidate>
+
+        <candidate name ="John Kasich">
+          <image>img/kasich.jpg</image>
+          <bio>The Ohio governor does not have a high profile outside of political circles, but could be a contender if he's not dismissed as too moderate by GOP voters.</bio>
+        </candidate>
+
+        <candidate name ="Bobby Jindal">
+          <image>img/jindal.jpg</image>
+          <bio>The Louisiana governor believes he cannot go too far right as he tries to get on the national radar and stand out from the pack.</bio>
+        </candidate>
+
+        <candidate name ="Rick Perry">
+          <image>img/perry.jpg</image>
+          <bio>A critical gaffe in a debate in 2012 sunk the Texas governor's chances, and he has indicated since then he planned to take another whack at it.</bio>
+        </candidate>
+
+        <candidate name ="Scott Walker">
+          <image>img/walker.jpg</image>
+          <bio>The closest thing to a front-runner on the GOP side, Walker of Wisconsin has shown a conservative governor can win big and make changes in blue state.</bio>
+        </candidate>
+
+        <candidate name ="Donald Trump">
+          <image>img/trump.jpg</image>
+          <bio>Every election, the TV star and real estate developer flirts with running, and changes his mind, but some say this year might be different. Few are holding their breath.</bio>
+        </candidate>
+
+      </expectedReps>
+
+    </republican>
+
 </candidates>
